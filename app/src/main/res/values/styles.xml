@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Base application theme -->
+    <style name="Theme.LotttttoY" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Customize your theme here -->
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorSecondary">@color/secondary_color</item>
+        <item name="android:windowBackground">@color/background_color</item>
+        <item name="android:textColorPrimary">@color/text_color</item>
+    </style>
+
+</resources>
