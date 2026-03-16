@@ -29,7 +29,7 @@ jobs:
       run: ./gradlew test
 
     - name: Upload Artifacts
-      uses: actions/upload-artifact@v4  # ОБНОВИЛИ версию с v3 на v4
+      uses: actions/upload-artifact@v4  # Используется актуальная версия upload-artifact
       with:
         name: apk
         path: app/build/outputs/apk/release/*.apk
