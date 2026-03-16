@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.lottttoy"
+    namespace = "com.yourcompany.LotttttoY"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.lottttoy"
+        applicationId = "com.yourcompany.LotttttoY"
         minSdk = 21
         targetSdk = 33
         versionCode = 1
