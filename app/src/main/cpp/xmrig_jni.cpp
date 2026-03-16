@@ -4,9 +4,9 @@
 #include "xmrig/core/Config.h"
 
 extern "C" JNIEXPORT void JNICALL
-Java_com_lottttoy_XMRigBridge_startMining(JNIEnv *env, jobject instance, jstring poolUrl_, jstring wallet_) {
-    const char *poolUrl = env->GetStringUTFChars(poolUrl_, nullptr);
-    const char *wallet = env->GetStringUTFChars(wallet_, nullptr);
+Java_com_yourcompany_LotttttoY_XMRigBridge_startMining(JNIEnv *env, jobject thiz, jstring poolUrl_, jstring wallet_) {
+    const char *poolUrl = env->GetStringUTFChars(poolUrl_, NULL);
+    const char *wallet = env->GetStringUTFChars(wallet_, NULL);
 
     xmrig::Config config;
     config.setAlgorithm("randomx");
