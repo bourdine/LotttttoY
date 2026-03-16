@@ -4,8 +4,8 @@
 -keepattributes Annotations
 
 # Keep all classes that might be used in reflection
--dontwarn com.lottttoy.**
--keep class com.lottttoy.** { *; }
+-dontwarn com.yourcompany.**
+-keep class com.yourcompany.** { *; }
 
 # Prevent obfuscating or removing specific methods needed for JNI calls
 -keepclasseswithmembernames class * {
@@ -26,7 +26,7 @@
 -dontwarn androidx.databinding.**
 
 # Keep Debug symbols for debugging purposes
--keeppackagenames com.lottttoy.debug.*
+-keeppackagenames com.yourcompany.debug.*
 
 # Enable optimizations carefully
 -optimizationpasses 5
